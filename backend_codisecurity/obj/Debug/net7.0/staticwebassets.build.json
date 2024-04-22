@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Mw7d8ZyX2xDiwaYH4ItE3oYcc/I05HLLwrBTt+Lu4sQ=",
+  "Source": "backend_codisecurity",
+  "BasePath": "_content/backend_codisecurity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
