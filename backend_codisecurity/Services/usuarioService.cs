@@ -20,7 +20,7 @@ namespace backend_codisecurity.Services
                 codisecurityStoreDatabaseSettings.Value.DatabaseName);
 
             _usuariosCollection = mongoDatabase.GetCollection<Usuarios>(
-                codisecurityStoreDatabaseSettings.Value.codisecurityCollectionName);
+                codisecurityStoreDatabaseSettings.Value.codisecurityCollectionName["usuarios"]);
         }
 
         public async Task<List<Usuarios>> GetAsync() =>

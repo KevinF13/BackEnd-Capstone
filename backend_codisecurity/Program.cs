@@ -16,6 +16,7 @@ builder.Services.Configure<codisecurityStoreDatabaseSettings>(
     builder.Configuration.GetSection("codisecurityDB"));
 
 builder.Services.AddSingleton<usuarioService>();
+builder.Services.AddSingleton<rolService>();
 
 var app = builder.Build();
 

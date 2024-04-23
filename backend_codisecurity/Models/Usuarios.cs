@@ -9,7 +9,8 @@ namespace backend_codisecurity.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
 
-        public string? Id_rol { get; set; }
+        [BsonElement("rol")]
+        public string rolId { get; set; }
 
         [BsonElement("nombre")]
         public string nombre { get; set; } = null!;

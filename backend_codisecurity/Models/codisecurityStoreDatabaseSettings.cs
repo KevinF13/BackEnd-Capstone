@@ -6,6 +6,7 @@
 
         public string DatabaseName { get; set; } = null!;
 
-        public string codisecurityCollectionName { get; set; } = null!;
+        //public string codisecurityCollectionName { get; set; } = null!;
+        public Dictionary<string, string> codisecurityCollectionName { get; set; }
     }
 }
